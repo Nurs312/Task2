@@ -1,0 +1,5 @@
+lis = input('Enter any numbers: ').split()
+index = int(input('Enter one number'))
+lis.pop(index)
+lis.pop()
+print(lis)
